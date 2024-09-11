@@ -1,0 +1,102 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jacques Francois Shadow", serif;
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+#container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+nav{
+  margin-left: 70px;
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  background-image: url('./content/studlogo.png');
+  width: 150px;
+
+}
+
+.logo:hover{
+  background-image: url('./content/logo.png');
+}
+
+.list-items{
+  list-style:none ;
+  display: inline;
+  margin: 0px 20px;
+
+}
+
+.links{
+  text-decoration: none;
+  font-weight:400;
+}
+.links:hover{
+  color: blue;
+  text-decoration: underline;
+  }
+
+/* Home */
+
+.home-content{
+  margin:13% 0px 0px 6%;
+}
+
+#username{
+  font-size: 40px;
+  font-family: "Pacifico", system-ui;
+}
+
+#lname
+{
+  color: rgb(4, 0, 255);
+}
+
+#download{
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: 600px;
+  padding: 10px;
+}
+
+.home-image{
+  width:45% ;
+  height:75%;
+  position: absolute;
+  right: 40px;
+  bottom: 0px;
+}
+
+.grp1{
+  position: absolute;
+  height: 100%;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: bottom 1s,left 1s;
+}
+.home-image:hover #shape
+{
+  bottom: 90px;
+}
+
+.home-image:hover #girl
+{
+  left: 30%;
+}
