@@ -4,66 +4,163 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio</title>
   <!-- CSS Link -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Cinzel:wght@400..900&family=Jacques+Francois+Shadow&family=Manrope:wght@200..800&family=Pacifico&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Reddit+Sans+Condensed:wght@200..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <div id="container">
-
-    <!-- Navigationbar -->
+    <!--navigation -->
     <nav>
-      <!-- logo -->
-
-      <img class="logo" src="./content/logo.png" alt="No image">
-
-      <!-- links -->
+      <!-- Logo -->
+      <img class="logo" src="./content/logo.png">
+      <!-- Links -->
       <ul>
-        <li class="list-items"><a class="links" href="">Home</a></li>
-        <li class="list-items"><a class="links" href="">About</a></li>
-        <li class="list-items"><a class="links" href="">Skills</a></li>
-        <li class="list-items"><a class="links" href="">Contact</a></li>
-
+        <li class="list-items"><a class="link" href="#Home">Home</a></li>
+        <li class="list-items"><a class="link" href="#About">About</a></li>
+        <li class="list-items"><a class="link" href="#Skills">Skills</a></li>
+        <li class="list-items"><a class="link" href="#contact">Contacts</a></li>
       </ul>
-
     </nav>
     <!-- Home -->
-    <section id="home">
-      <!-- Home Content -->
-
+    <section id="Home">
       <div class="home-content">
-        <h1 id="username">Hey it's me <span id="lname">Adithya Anil</span></h1><br>
-        <p>This is my portfolio webpage to describe all<br>Details and work experience in webdevelopment</p>
-        <br>
-        <a id="download" href="./content/Adithya_Anil_Resume (1).pdf" download="AdithyaAnil_Resume">Download CV</a>
+        <h1 class="animate__animated animate__wobble" id="username">Hey it's me <span id="lname">Adithya Anil</span>
+        </h1>
+        <p id="usedetails">This is my Portfolio website to describe all Details <br>and Work Experience in Web
+          development</p>
+        <a id="download" href="./content/Adithya_Anil_Resume (1).pdf" download>Download CV</a>
       </div>
-      <!-- Home Image -->
-      <div class="home-image">
-        <img id="shape" class="grp1" src="./content/portbg-removebg-preview.png" alt="no image">
-        <img id="girl" class="grp1" src="./content/port1-removebg-preview.png" alt="no image">
-
+      <div class="homeimage">
+        <img class="group1" id="shape" src="./content/portbg-removebg-preview.png" alt="no image">
+        <img class="group1" id="girl" src="./content/port1-removebg-preview.png" alt="no image">
       </div>
-
-
     </section>
-    <!-- About -->
-    <!-- skills -->
-    <!-- Contact -->
-    <!-- Footer -->
+    <!-- About Us -->
+    <section id="About">
+      <div class="head">
+        <h1 id="mainhead">About Me</h1>
+        <span class="subhead">Introduction</span>
+      </div>
+      <div class="aboutbody">
+        <div data-aos="zoom-in-up" class="aboutimage">
+          <img class="img1" src="./content/about me.png" alt="No image">
+        </div>
+        <div class="aboutContent">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, suscipit doloremque saepe, libero sit
+            dignissimos tenetur nobis unde mollitia harum repudiandae, dolore labore? Quas, aut cum? Consequatur
+            voluptas perspiciatis ipsum.
+          </p>
+          <div class="informations">
+            <div class="infobox">
+              <i class="fa-solid fa-user"></i>
+              <span class="info">Adithya Anil</span>
+            </div>
+            <div class="infobox"></div>
+            <i class="fa-solid fa-phone"></i>
+            <span class="info">8921959626</span>
+          </div>
+          <div class="infobox"></div>
+          <i class="fa-solid fa-envelope"></i>
+          <span class="info">unidreamerzz@gmail.com@gmail.com</span>
+        </div>
+      </div>
+  </div>
   </div>
 
+  </section>
+  <!-- Skills -->
+  <section id="Skills">
+    <div class="head1">
+      <h1 id="mainhead1">Skills</h1>
+      <span class="subhead1">My Skills</span>
+    </div>
+    <div class="skillcontent">
+      <div class="progressbars">
+        <div class="bars">
+          <h3 class="barHead">HTML</h3>
+          <span class="barPercent">89%</span>
+          <div class="basebar"></div>
+          <div class="basebar basehtml" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+</div>
+        </div>
+        <div class="bars">
+          <h3 class="barHead">CSS</h3>
+          <span class="barPercent">75%</span>
+          <div class="basebar"></div>
+          <div class="basebar basecss"></div>
+    
+        </div>
+        <div class="bars">
+          <h3 class="barHead">JS</h3>
+          <span class="barPercent">70%</span>
+          <div class="basebar"></div>
+          <div class="basebar basejs"></div>
+        </div>
+        <div class="bars">
+          <h3 class="barHead">PYTHON</h3>
+          <span class="barPercent">95%</span>
+          <div class="basebar"></div>
+          <div class="basebar basepython"></div>
+        </div>
+      </div>
+      <div data-aos="zoom-out-left" class="skillimage">
+        <img class="myskill" src="./content/skills.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="head1">
+      <h1 id="mainhead1">Contacts</h1>
+      <span class="subhead1">My Contacts</span>
+    </div>
+    <div class="iconcollection">
+      <div class="icon">
+        <a href="https://www.linkedin.com/in/adithya-anil-b919101b3"><i class="fa-brands fa-linkedin brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-github brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-facebook brands"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p id="copyright">&copy; My Portfolio Website-September 2024,Alll RightsReserved to &reg; Adithya Anil</p>
+    <div class="icon uparrow">
+      <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+    </div>
+  </footer>
+  </div>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>
-
-git remote add origin https://github.com/unidreamerzz007/portfolio-website.git
